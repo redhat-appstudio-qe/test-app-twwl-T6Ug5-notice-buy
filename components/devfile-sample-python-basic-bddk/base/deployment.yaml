@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-bddk
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-dhdi-tenant/test-app-twwl/devfile-sample-python-basic-bddk@sha256:cc789616177a186aab2e05c0817b8258d159b2011896c268c1965fd035cac14c
         name: my-python
         ports:
         - containerPort: 8081
